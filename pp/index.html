@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primer parcial</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">SkyPics by Charlie Delgado 20211092</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Informaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mas imagenes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="slider">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/sky1.jpg" alt="0">
+                    <div class="carousel-caption">
+                        <h3 class="d-block">Primera imagen</h3>
+                        <p class="lead d-none d-sm-block">Imagen de nubes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/sky3.jpg" alt="1">
+                    <div class="carousel-caption">
+                        <h3 class="d-block">Segunda imagen.</h3>
+                        <p class="lead d-none d-sm-block">Nubes coloridad</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/sky2.jpg" alt="2">
+                    <div class="carousel-caption">
+                        <h3 class="d-block">Tercera imagen</h3>
+                        <p class="lead d-none d-sm-block">Cielo noctuno en la tormenta.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previo</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+    </section>
+    <section class="bg-light-grey">
+        <div class="container">
+          <h2 class="text-dark">Bienvenido a nuestro sitio web sobre las nubes y el cielo.</h2>
+          <p class="lead text-muted">Nuestro objetivo es ofrecerle contenidos interesantes e informativos sobre la belleza y la ciencia que hay detrás de estas asombrosas maravillas naturales.
+             Explora nuestro sitio para aprender más sobre los distintos tipos de nubes, los patrones meteorológicos y mucho más.</p>
+
+          <div class="row mt-6">
+              <div class="col-md-6">
+                  <div class="card border-0 mb-4">
+                      <div class="card-body p-5">
+                          <h3><span class="badge badge-secondary bg-dark text-light mb-2">Info. </span></h3>
+                          <p class="lead mb-4">¿Sabías que hay muchos tipos diferentes de nubes, cada una con sus propias características?</p>
+                          <h2 class="mb-0">Tipos de nubes.</h2>
+                          <p class="lead text-muted mb-4"> Desde los esponjosos cúmulos hasta los oscuros y ominosos cumulonimbos, hay mucho que aprender sobre estas asombrosas formaciones. Consulta nuestra guía sobre los distintos tipos de nubes para saber más.</p>
+                          
+                          </ul>
+                          <a class="btn btn-secondary text-light">Mas info</a>
+                      </div>
+
+                  </div>
+
+              </div>
+              <div class="col-md-6">
+                <div class="card bg-dark border-0 mb-4">
+                    <div class="card-body p-5">
+                        <h3><span class="badge badge-secondary bg-light text-dark mb-2">Tips.</span></h3>
+                        <p class="lead text-light mb-4">¿Alguna vez ha querido ver una lluvia de meteoritos o una hermosa puesta de sol, pero no sabía dónde mirar?</p>
+                        <h2 class="mb-0 text-light">Consejos para observar el cielo.</h2>
+                        <p class="lead text-light mb-4">Nuestros consejos sobre observación del cielo le informan sobre las mejores horas y lugares para contemplar estos fenómenos naturales. También le ofrecemos consejos sobre cómo sacar el máximo partido a su experiencia de observación de las estrellas.</p>
+                        
+                        <a class="btn btn-light text-dark">Mas info</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+          </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contactanos</h3>
+                    <p>Comunicate con uno de nuestros expertos mediante el siguiente correo o visita nuestra sucursal.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Info</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> 1234 Main St, Anytown USA</li>
+                        <li><i class="fas fa-phone"></i> (555) 555-1234</li>
+                        <li><i class="fas fa-envelope"></i> email@example.com</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
